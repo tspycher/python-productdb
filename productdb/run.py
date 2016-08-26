@@ -1,13 +1,5 @@
-#from eve_mongoengine import EveMongoengine
-from eve import Eve
-
-#from productdb.app.documents import load_documents
-from productdb.app.config import load_config
-
-
-app = Eve(settings=load_config(env='dev'))
-#ext_mongoengine = EveMongoengine(app)
-#load_documents(ext_mongoengine.add_model)
+from productdb.app import create_app
 
 if __name__ == '__main__':
+    app = create_app('dev')
     app.run(debug=True)
