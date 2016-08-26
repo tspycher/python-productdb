@@ -9,7 +9,7 @@ model = {
     'item_title': 'product',
     'additional_lookup': {
         'url': 'regex("[\w]+")',
-        'field': 'title'
+        'field': 'code'
     },
 
     # Schema definition, based on Cerberus grammar. Check the Cerberus project
