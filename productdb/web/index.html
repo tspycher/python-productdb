@@ -28,6 +28,7 @@
     <body ng-app="myApp">
 
     <div class="container" ng-controller="ProductsController">
+        <button ng-click="previousPage()" ng-if="page > 1">Previous</button> <button ng-click="nextPage()">Next</button> Page: {{page}}
 
         <table class="table table-hover">
         <thead>

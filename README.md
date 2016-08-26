@@ -26,6 +26,6 @@ To get a specific item "search" for it with the following url: http://127.0.0.1:
 Directly access an item with either its code http://localhost:5000/product/<CODE> or mongo ID http://localhost:5000/product/<OBJECTID>
 
 # Missing features
- * Pagination on Frontend
+ * ~~Pagination on Frontend~~
  * CRUD Operations on Frontend
  * Search implementation with ElasticSearch
