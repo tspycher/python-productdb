@@ -2,8 +2,7 @@
 #from productdb.app.documents import load_documents
 import os
 from eve import Eve
-from productdb.app.config import load_config
-
+from config import load_config
 
 def create_app(env='dev'):
     app = Eve(

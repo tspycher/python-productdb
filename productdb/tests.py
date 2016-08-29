@@ -1,5 +1,5 @@
 import unittest
-from productdb.testing import suite
+from testing import suite
 
 if __name__ == '__main__':
     suite = suite()

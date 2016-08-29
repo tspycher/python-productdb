@@ -1,6 +1,6 @@
 from flask.ext.script import Manager
-from productdb.app import create_app
-from productdb.app.commands import load_commands
+from app import create_app
+from app.commands import load_commands
 
 app = create_app('dev')
 manager = Manager(app)
