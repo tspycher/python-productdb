@@ -17,6 +17,9 @@ To import the feed.xml
 
 ```PYTHONPATH=. python productdb/manage.py readfeed -f data/feed.xml```
 
+And finally to run the unittests
+
+```PYTHONPATH=. python productdb/tests.py```
 
 The Api is available under http://localhost:5000/ and http://localhost:5000/product and allows GET, POST, PUT, PATCH, DELETE
 A pretty simple HTML/Angular Webapp is available under http://localhost:5000/web/index.html
@@ -26,6 +29,9 @@ To get a specific item "search" for it with the following url: http://127.0.0.1:
 Directly access an item with either its code http://localhost:5000/product/<CODE> or mongo ID http://localhost:5000/product/<OBJECTID>
 
 # Missing features
+ * ~~Add Unittests~~
+ * Add Fixtures for unittests
  * ~~Pagination on Frontend~~
- * CRUD Operations on Frontend
+ * C~~R~~UD Operations on Frontend
  * Search implementation with ElasticSearch
+ * ant build.xml file for packaging and CI Integrations
