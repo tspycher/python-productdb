@@ -3,6 +3,7 @@ config = {
     'XML': False,
     'JSON': True,
     'DEBUG': True,
+    'X_DOMAINS': '*', #CORS; wide open :-o
 
     'RESOURCE_METHODS': ['GET', 'POST', 'DELETE'],
     'ITEM_METHODS': ['GET', 'PATCH', 'DELETE'],

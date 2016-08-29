@@ -31,6 +31,7 @@ Directly access an item with either its code http://localhost:5000/product/<CODE
 # Missing features
  * ~~Add Unittests~~
  * Add Fixtures for unittests
+ * ~~Cross Origin Request issue when 127.0.0.1 instead localhost used~~
  * ~~Pagination on Frontend~~
  * C~~R~~UD Operations on Frontend
  * Search implementation with ElasticSearch
